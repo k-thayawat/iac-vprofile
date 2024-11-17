@@ -16,6 +16,7 @@ variable "vpc_ip_range" {
   default     = "172.20.0.0/16"
 }
 
+#
 variable "subnet_cidr_block" {
   description = "cidr block for subnet"
   type        = map(list(string))
